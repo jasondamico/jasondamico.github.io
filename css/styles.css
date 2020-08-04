@@ -1,6 +1,19 @@
 .center {
     margin: auto;
-    width: 50%;
     padding: 10px;
     text-align: center;
+}
+
+.profile-image {
+    width: 200px;
+    border-radius: 112px;
+    margin-bottom: 8px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.profile-text {
+    margin-bottom: 2px;
 }

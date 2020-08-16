@@ -1,6 +1,5 @@
 .center {
     margin: auto;
-    padding: 10px;
     text-align: center;
 }
 
@@ -23,3 +22,53 @@
     margin: 3px;
     margin-top: 12px;
 }
+
+.name {
+    font-size: 60px;
+    padding: 12px 12px 0px 12px;
+}
+
+.intro {
+    padding-bottom: 40px;
+}
+
+.socials {
+    margin-bottom: 12px;
+}
+
+.media-row {
+    margin-bottom: 150px;
+}
+
+@media (min-width: 992px) {
+    .index-full-width-content {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.btn-resume {
+    color: white;
+    background: linear-gradient(to right,#56ab2f, #a8e063);
+    border-radius: 16px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    padding: 8px 20px; 
+    border: 0px;
+}
+
+.btn-resume:hover {
+    color: white;
+    background: linear-gradient(to right,#3f7b23, #89b356);
+}
+
+.btn-resume:active {
+    background: linear-gradient(to right,#3f7b23, #89b356) !important;
+    border: 2px;
+    border-color: pink;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}  

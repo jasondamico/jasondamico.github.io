@@ -15,3 +15,5 @@
 3. **Imbed my GitHub contributions page.** I belive that the GitHub API would help me out here, but I would need to do a bit more research into this before I fully jump into it. I am also not sure where to put this; probably on `projects.html`, but I would want to implement it such that it flows with the style of the page and does not stick out too greatly. 
 
 4. **Create YouTube video for homepage.** This is the largest obstacle between now and the public release of the website. 
+
+5. **Add transition to resume button.** Need to change code from changing background colors to changing opacity ([link](https://www.w3schools.com/howto/howto_css_transition_hover.asp)).

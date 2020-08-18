@@ -70,6 +70,21 @@
             <p>Feel free to explore!</p>
         </div>
     </div>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+          $(".container").hide();
+        });
+
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+          $(".container").show();
+        });
+    </script>
         
 </body>
 

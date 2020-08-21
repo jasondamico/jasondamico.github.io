@@ -6,7 +6,7 @@
     3. On the footer
     I wish to pick the method that is both most aesthetically pleasing and also, more importantly, the place where people would be most likely to see it.
 
-2. **Create page for blog/opinion writing.** I want to create a page where I can write little articles either about what's going on in my life or various things that I have opinions on — the actual purpose of this page and its contents can be determined later, but I want to make the framework for this page regardless. What I envision here is either: 
+2. **Choose format for page for blog/opinion writing.** I want to create a page where I can write little articles either about what's going on in my life or various things that I have opinions on — the actual purpose of this page and its contents can be determined later, but I want to make the framework for this page regardless. What I envision here is either: 
     1. A list of files/articles linked, each of which is a piece that I have written.
     2. A continuous page that includes every piece that I have written with the intention of use on the personal website. 
 

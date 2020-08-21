@@ -72,3 +72,28 @@
     outline: none;
     box-shadow: none;
 }  
+
+.btn-google-doc {
+    color: white;
+    background: linear-gradient(to right, #396afc, #2948ff);
+    border-radius: 16px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    padding: 8px 20px;
+    border: 0px;
+}
+
+.docs-logo {
+    width: 16px;
+    margin-right: 4px;
+}
+
+.btn-google-doc:hover {
+    color: white;
+    background: linear-gradient(to right, #033be2, #0022e6);
+}
+
+.btn-google-doc:active {
+    background: linear-gradient(to right, #033be2, #0022e6) !important;
+}
+

@@ -17,11 +17,11 @@
 </head>
     
 <body>
-    <div id="header">
+    <div id="header" style="display: none;">
     
     </div>
 
-    <div class="container">
+    <div class="container" style="display: none;">
         <div class="intro">
             <div class="row">
                 <h1 class="center name">Jason D'Amico</h1>
@@ -76,12 +76,9 @@
     </div>
 
     <script>
-        $(document).ready(function() {
-          $(".container").hide();
-        });
-
         $(window).on("load",function(){
           $(".loader-wrapper").fadeOut("slow");
+          $("#header").show();
           $(".container").show();
         });
     </script>

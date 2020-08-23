@@ -13,6 +13,7 @@
         $("#header").load("/util/header.html");  
         $("#footer").load("/util/footer.html"); 
         $("#head").load("/util/head.html"); 
+        $("#loading-animation").load("/util/loading_animation.html");
     }); 
     </script> 
 
@@ -153,17 +154,9 @@
         </div>
     </div>
 
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div>
+    <div id="loading-animation">
 
-    <script>
-        $(window).on("load",function(){
-            $(".loader-wrapper").fadeOut("slow");
-            $("#header").show();
-            $(".container").show();
-        });
-    </script>
+    </div>
 </body>
 
 </html>

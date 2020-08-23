@@ -14,7 +14,26 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
+    <script>
+        $(document).ready(function() {
+            // get current URL path and assign 'active' class
+            var pathname = window.location.pathname;
+            $('.navbar-nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+        })
+    </script>
+
     <title>Jason D'Amico</title>
 </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/projects.html">Coding Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="/blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Give Feedback</a></li>
+        </ul>
+    </nav>
+</body>
 
 </html>

@@ -37,10 +37,6 @@
     margin-bottom: 22px;
 }
 
-.media-row {
-    margin-bottom: 150px;
-}
-
 @media (min-width: 992px) {
     .text-content {
         margin-left: 15%;
@@ -95,5 +91,9 @@
 
 .btn-google-doc:active {
     background: linear-gradient(to right, #033be2, #0022e6) !important;
+}
+
+.home-page-content {
+    margin-bottom: 150px;
 }
 

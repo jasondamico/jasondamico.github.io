@@ -17,3 +17,5 @@
 4. **Create YouTube video for homepage.** This is the largest obstacle between now and the public release of the website. 
 
 5. **Add transition to resume button.** Need to change code from changing background colors to changing opacity ([link](https://www.w3schools.com/howto/howto_css_transition_hover.asp)).
+
+6. **Enhance presentation of "What will I be working on?" section of index page.** In particular, I would love to add some photos to each of the sections. At the very least, the section should be formatted such that the three sections are distinct. ***BONUS:*** It would be great to add an attractive link to my summer research poster to help explain the Admissions project. 

@@ -6,11 +6,10 @@
     3. On the footer
     I wish to pick the method that is both most aesthetically pleasing and also, more importantly, the place where people would be most likely to see it.
 
-2. **Choose format for page for blog/opinion writing.** I want to create a page where I can write little articles either about what's going on in my life or various things that I have opinions on — the actual purpose of this page and its contents can be determined later, but I want to make the framework for this page regardless. What I envision here is either: 
-    1. A list of files/articles linked, each of which is a piece that I have written.
-    2. A continuous page that includes every piece that I have written with the intention of use on the personal website. 
-
-    I am thinking that the latter might be a better place to start, but the former is more conducive to lots of posts (i.e., something that should be implemented if I make many contributions to this page).
+2. **Build heirarchy for blog page.** I want to create a page where I can write little articles either about what's going on in my life or various things that I have opinions on — the actual purpose of this page and its contents can be determined later, but I want to make the framework for this page regardless. It has become clear to me that it would be beneficial to separate different types of write-ups (e.g., one section on EON writings, one on general thoughts, one on code-related thoughts, etc.). There are a few different possibilities that I envision could accomplish this task:
+    1. Dropdown menu from the navigation bar. Easy to implement.
+    2. [Collapsible](https://www.w3schools.com/howto/howto_js_collapsible.asp) within page (i.e., one collapsible for each section). I really like this idea: something about it seems very aesthetically pleasing and professional to me.
+    3. Folder system on page. Clicking on a folder (e.g., EON) would bring you to a new page with all of the contents (e.g., all of the newsletter writings).
 
 3. **Imbed my GitHub contributions page.** I belive that the GitHub API would help me out here, but I would need to do a bit more research into this before I fully jump into it. I am also not sure where to put this; probably on `projects.html`, but I would want to implement it such that it flows with the style of the page and does not stick out too greatly. 
 

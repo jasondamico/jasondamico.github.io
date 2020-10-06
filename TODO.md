@@ -23,3 +23,5 @@
     2. In the navbar (where it is presently linked)
     3. On the footer
     I wish to pick the method that is both most aesthetically pleasing and also, more importantly, the place where people would be most likely to see it.
+
+4. **Experiment with removing bootstrap from local environment.** I have a hunch that this might be an acceptable step now that I use the jQuery loading screen.

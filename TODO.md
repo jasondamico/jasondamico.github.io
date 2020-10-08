@@ -5,12 +5,6 @@
 
 1. **Enhance presentation of "What will I be working on?" section of index page.** In particular, I would love to add some photos to each of the sections. At the very least, the section should be formatted such that the three sections are distinct. ***BONUS:*** It would be great to add an attractive link to my summer research poster to help explain the Admissions project. 
 
-2. **Fix display of EON newsletter cards.** The text does not quite fill the card, and the cards are too big on mobile display. 
-
-3. **Make website (roughly) mobile compatible.** There are a couple of specific things that need to be done for mobile compatibility: 
-    1. Add margin between profile photo and intro video on `index.html`.
-    2. Fix `blog.html` display (see above to-do).
-
 ## GENERAL
 
 1. **Build hierarchy for blog page.** I want to create a page where I can write little articles either about what's going on in my life or various things that I have opinions on — the actual purpose of this page and its contents can be determined later, but I want to make the framework for this page regardless. It has become clear to me that it would be beneficial to separate different types of write-ups (e.g., one section on EON writings, one on general thoughts, one on code-related thoughts, etc.). There are a few different possibilities that I envision could accomplish this task:

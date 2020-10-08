@@ -102,8 +102,15 @@
 }
 
 .writeup-photo {
-    width: 30%;
     margin: 16px;
+}
+
+.cpp-photo {
+    width: 30%;
+}
+
+.poster-photo {
+    width: 70%;
 }
 
 .cpp-logo {
@@ -117,5 +124,9 @@
 
 .focuses {
     margin-bottom: 36px;
+}
+
+.project-writeup{
+    margin-bottom: 45px;
 }
 

@@ -127,6 +127,14 @@
     margin: 16px;
 }
 
+@media (max-width: 575px)
+{
+    .writeup-photo, .robot-photo {
+        width: 90%;
+        margin: 10px;
+    }
+}
+
 .poster-photo {
     width: 70%;
 }

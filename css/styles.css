@@ -56,7 +56,11 @@
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%) !important;
 }
 
-.btn-repo {
+.btn-union, .btn-union:hover, .btn-union:active {
+    background: linear-gradient(90deg, rgba(130,36,51,1) 0%, rgba(214,108,125,1) 100%) !important;
+}
+
+.btn-repo, .btn-union {
     color: white;
     border-radius: 16px; 
     font-size: 14px; 
@@ -66,7 +70,7 @@
     transition: 1.0s;
 }
 
-.btn-repo:hover {
+.btn-repo:hover, .btn-union:hover {
     color: #dadada;
 }
 

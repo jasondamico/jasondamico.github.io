@@ -28,6 +28,11 @@
     vertical-align: middle;
 }
 
+/* Offset to align with mail logo */
+.logo.github, .logo.linkedin {
+    margin-top: 0px;
+}
+
 .name {
     font-size: 60px;
     padding: 12px 12px 0px 12px;

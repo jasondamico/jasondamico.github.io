@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/loading_animation.css">
+    <script src="/js/loading_animation.js"></script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+    $(function(){
+        $("#header").load("/util/header.html");
+        $("#footer").load("/util/footer.html");
+        $("#head").load("/util/head.html");
+    });
+    </script>
+
+    <span id="head">
+
+    </span>
+</head>
+
+<body>
+    <div id="header" style="display: none;">
+
+    </div>
+
+    <div class="container" style="display: none;">
+
+    </div>
+
+    <div id="footer">
+
+    </div>
+
+    <!-- LOADING SCREEN TAGS -->
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        closeAnimationOnLoad();
+    </script>
+</body>
+
+</html>

@@ -177,3 +177,43 @@
 .robot-photo {
     width: 500px;
 }
+
+/* PASSIONS PAGE */
+
+.passion {
+    width: 992px;
+    padding: 30px;
+    display: flex;
+}
+
+.passion-display {
+    position: relative;
+    width: 450px;
+}
+
+.passion .fas {
+    color:#343a40;
+    opacity: 0.8;
+    font-size: 200px;
+}
+
+.passion .photo {
+    width: 300px;
+    position: absolute;
+}
+
+.passion-left .photo {
+    top: 150px;
+    left: 100px;
+}
+
+.passion-display, .passion-writeup {
+    flex: 1;
+}
+
+.passion-title {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+}

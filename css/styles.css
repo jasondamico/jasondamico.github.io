@@ -186,11 +186,27 @@
     display: flex;
 }
 
+/* Allows for overlap of photos on FontAwesome icons */
 .passion-display {
     position: relative;
     width: 450px;
 }
 
+.passion-right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Setting section height based on photo heights */
+.passion-coffee .passion-display {
+    height: 375px;
+}
+
+.passion-soccer .passion-display {
+    height: 500px;
+}
+
+/* Styling of FontAwesome icons */
 .passion .fas {
     color:#343a40;
     opacity: 0.8;
@@ -202,11 +218,22 @@
     position: absolute;
 }
 
+/* Setting up overlays of photos over FontAwesome icons */
 .passion-left .photo {
     top: 150px;
     left: 100px;
 }
 
+.passion-right .photo {
+    top: 150px;
+    right: 100px;
+}
+
+.passion-right .passion-display {
+    text-align: right;
+}
+
+/* Allows passion display and writeup to appear directly to the side of each other */
 .passion-display, .passion-writeup {
     flex: 1;
 }
@@ -216,4 +243,8 @@
     width: 100%;
     font-weight: bold;
     font-size: 30px;
+}
+
+.passion-writeup p {
+    text-align: justify;
 }

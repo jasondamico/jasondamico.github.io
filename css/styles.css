@@ -206,6 +206,10 @@
     height: 500px;
 }
 
+.passion-social-justice .passion-display {
+    height: 550px;
+}
+
 /* Styling of FontAwesome icons */
 .passion .fas {
     color:#343a40;

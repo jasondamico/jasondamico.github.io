@@ -177,3 +177,133 @@
 .robot-photo {
     width: 500px;
 }
+
+/* PASSIONS PAGE */
+
+.passion {
+    width: 992px;
+    padding: 30px;
+    display: flex;
+}
+
+/* Passion writeups that are needed for mobile display are hidden by default */
+.passion-writeup.mobile-display {
+    display: none;
+}
+
+/* Allows for overlap of photos on FontAwesome icons */
+.passion-display {
+    position: relative;
+    width: 450px;
+}
+
+.passion-right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Setting section height based on photo heights */
+.passion-coffee .passion-display {
+    height: 375px;
+}
+
+.passion-soccer .passion-display {
+    height: 500px;
+}
+
+.passion-social-justice .passion-display {
+    height: 550px;
+}
+
+/* Styling of FontAwesome icons */
+.passion .fas {
+    color:#343a40;
+    opacity: 0.8;
+    font-size: 200px;
+}
+
+.passion .photo {
+    width: 300px;
+    position: absolute;
+}
+
+/* Setting up overlays of photos over FontAwesome icons */
+.passion-left .photo {
+    top: 150px;
+    left: 100px;
+}
+
+.passion-right .photo {
+    top: 150px;
+    right: 100px;
+}
+
+.passion-right .passion-display {
+    text-align: right;
+}
+
+/* Allows passion display and writeup to appear directly to the side of each other */
+.passion-display, .passion-writeup {
+    flex: 1;
+}
+
+.passion-title {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.passion-writeup p {
+    text-align: justify;
+}
+
+/* Mobile compatibility for passions page */
+@media (max-width: 992px) {
+    .passion {
+        width: 100%;
+        padding: 30px;
+        display: block;
+    }
+
+    .passion-display {
+        width: 100%;
+    }
+
+    /* Show mobile display of passion writeup, hide desktop display */
+    .passion-writeup.mobile-display {
+        display: block;
+    }
+
+    .passion-writeup.desktop-display {
+        display: none;
+    }
+
+    /* Adjustment of photo sizes and offsets from FontAwesome icons */
+    .passion .photo {
+        width: 250px;
+    }
+
+    .passion-left .photo {
+        top: 100px;
+        left: 50px;
+    }
+
+    .passion-right .photo {
+        top: 100px;
+        right: 50px;
+    }
+
+    /* Adjustment of spaces between images and writeups */
+    .passion-coffee .passion-display {
+        height: 315px;
+    }
+
+    .passion-soccer .passion-display {
+        height: 400px;
+    }
+
+    .passion-social-justice .passion-display {
+        height: 450px;
+    }
+}

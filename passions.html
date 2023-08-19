@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/loading_animation.css">
+    <script src="/js/loading_animation.js"></script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+    $(function(){
+        $("#header").load("/util/header.html");
+        $("#footer").load("/util/footer.html");
+        $("#head").load("/util/head.html");
+    });
+    </script>
+
+    <span id="head">
+
+    </span>
+</head>
+
+<body>
+    <div id="header" style="display: none;">
+
+    </div>
+
+    <div class="container" style="display: none;">
+        <div class="row intro">
+            <h1 class="center" style="padding: 12px 12px 12px 12px;">Passions</h1>
+
+            <div class="text-content">
+                <p>I have a lot of things outside of programming that I am passionate about! Here are some highlights of my non-work life:</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passion passion-left passion-coffee">
+        <div class="passion-display">
+            <i class="fas fa-mug-hot"></i>
+            <img class="photo" src="/media/barista.jpg" alt="Jason D'Amico working as a barista"></img>
+        </div>
+        <div class="passion-writeup">
+            <div class="passion-title">Coffee</div>
+
+            <p>
+                I have spent two stints working as a barista: one in the summer of 2019 at Coffee By Design in Freeport, Maine and the other in the summer of 2023 at HiFi Donuts and Coffee in Portland, Maine. Through each experience, I have developed a love for coffee and crafting specialty drinks that drives me to explore coffee shops in cities I visit in search of the best espresso drinks. I also have grown to love the atmosphere of coffee shops and find them fun to visit both when I need to get good work done and during my days off. My go-to drink is a cappuccino: to me, it is the perfect combination of steamed milk, foam and espresso.
+            </p>
+        </div>
+    </div>
+
+    <div class="passion passion-right passion-soccer">
+        <div class="passion-writeup desktop-display">
+            <div class="passion-title">Soccer</div>
+
+            <p>
+                I played soccer in high school and remain engaged in the sport by playing with my friends and keeping up with the English Premier League. I followed the Premier League closely in high school and my interest in the league was rejuvenated following my study abroad experience in England in the fall of 2022. While I am pictured here at a Manchester City match, my favorite team is Fulham FC, who are based in southwest London: I try to catch as many Fulham matches on TV as I can and find watch the team a great way for me to unwind on the weekends.
+            </p>
+        </div>
+
+        <div class="passion-display">
+            <i class="fas fa-futbol"></i>
+            <img class="photo" src="/media/soccer.jpg" alt="Jason D'Amico at a soccer match"></img>
+        </div>
+
+        <!-- Needed as this writeup needs to appear after the photo on mobile -->
+        <div class="passion-writeup mobile-display">
+            <div class="passion-title">Soccer</div>
+
+            <p>
+                I played soccer in high school and remain engaged in the sport by playing with my friends and keeping up with the English Premier League. I followed the Premier League closely in high school and my interest in the league was rejuvenated following my study abroad experience in England in the fall of 2022. While I am pictured here at a Manchester City match, my favorite team is Fulham FC, who are based in southwest London: I try to catch as many Fulham matches on TV as I can and find watch the team a great way for me to unwind on the weekends.
+            </p>
+        </div>
+    </div>
+
+    <div class="passion passion-left passion-social-justice">
+        <div class="passion-display">
+            <i class="fas fa-fist-raised"></i>
+            <img class="photo" src="/media/ameu.jpg" alt="Jason D'Amico tabling at an event representing A More Equitable Union"></img>
+        </div>
+        <div class="passion-writeup">
+            <div class="passion-title">Social Justice</div>
+
+            <p>
+                I maintain a commitment to social justice and activism in the communities that I am a part of, which shapes both the type media I consume and how I spend my free time. When I was in high school, I volunteered with <a href="https://maineboystomen.org/">Maine Boys to Men</a>, a nonprofit organization dedicated to gender-based violence prevention by providing training to Maine students about healthy gender expression. I initially found the organization through being a participant in their programs, in which I found a voice and passion that stuck with me and pushed me to help others connect with healthy gender expression.
+            </p>
+
+            <p>
+                Once I got to college, I founded a club at my college named A More Equitable Union, which works to create a more inclusive and welcoming campus community for people of all identities. Through this organization, I have expanded my work within social justice settings to include a broader range of topics that I am passionate about. We hold student-led discussions about topics on campus or in popular culture related to our mission, and we also hold larger events with the campus community.
+            </p>
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+
+    <!-- LOADING SCREEN TAGS -->
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        closeAnimationOnLoad();
+    </script>
+</body>
+
+</html>
